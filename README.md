@@ -279,11 +279,3 @@ sudo tcpdump -i eth0 host 192.168.56.102 and tcp -w /tmp/honeypot_tcp.pcap
 
 ---
 
-## Extra: Tips for Viva & Report
-
-* Always mention isolation and legal constraints.
-* Explain why Snort is on the attacker VM (lab sensor) and how the real-world mapping uses SPAN/taps.
-* Show sample Cowrie JSON excerpts and the exact custom Snort rule you wrote from those logs.
-* Include a short table mapping an attack event to Cowrie log entry, Snort alert, and pcap evidence.
-
----
