@@ -13,18 +13,18 @@ This repository contains everything you need to reproduce the lab from the mini-
 ```
 CyberSecurity-Mini-Project/
 │
-├── README.md                 <- this file (how to run)
+├── README.md                 
 ├── architecture/
 │   └── project-architecture.png
 │
 ├── cowrie-honeypot/
 │   ├── docker-compose.yml
-│   ├── cowrie.cfg            <- minimal example config
+│   ├── cowrie.cfg            
 │   └── README-cowrie.md
 │
 ├── snort-ids/
 │   ├── local.rules
-│   ├── snort.lua             <- minimal snippet to include local.rules
+│   ├── snort.lua            
 │   └── README-snort.md
 │
 ├── attack-scripts/
@@ -36,7 +36,7 @@ CyberSecurity-Mini-Project/
 │   └── capture-instructions.md
 │
 └── report/
-    └── Mini-Project-Report.pdf   (optional)
+    └── Mini-Project-Report.pdf   
 ```
 
 ---
